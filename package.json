@@ -2,9 +2,9 @@
   "name": "stiebel",
   "version": "1.0.0",
   "description": "Control your Stiebel Eltron heatpump via ServiceWelt",
-  "main": "index.js",
-  "scripts": {
-  },
+  "main": "./lib",
+  "bin": "./cli.js",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jakutis/stiebel.git"
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/jakutis/stiebel/issues"
   },
-  "homepage": "https://github.com/jakutis/stiebel#readme"
+  "homepage": "https://github.com/jakutis/stiebel#readme",
+  "dependencies": {
+    "puppeteer": "1.10.0"
+  }
 }
