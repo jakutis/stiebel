@@ -6,6 +6,11 @@
 $ npm install -g stiebel
 ```
 
+## Overview
+
+* executes your commands by running a headless browser and doing the actions via the ServiceWelt LAN/intranet web application
+* tries to use existing chromium-browser binary, falls back to a bundled one
+
 ## Commands
 
 ### get-heating-mode
