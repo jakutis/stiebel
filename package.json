@@ -1,0 +1,25 @@
+{
+  "name": "stiebel",
+  "version": "1.0.0",
+  "description": "Control your Stiebel Eltron heatpump via ServiceWelt",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jakutis/stiebel.git"
+  },
+  "keywords": [
+    "stiebel",
+    "stiebeleltron",
+    "stiebel-eltron",
+    "heatpump",
+    "servicewelt"
+  ],
+  "author": "Vytautas Jakutis <vytautas@jakut.is>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jakutis/stiebel/issues"
+  },
+  "homepage": "https://github.com/jakutis/stiebel#readme"
+}
