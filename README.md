@@ -13,6 +13,69 @@ $ npm install -g stiebel
 
 ## Commands
 
+### get-system-info
+
+Gets the system information in JSON format.
+
+```shell
+$ stiebel get-system-info http://192.168.1.254/ username password
+{
+  "OUTSIDE TEMPERATURE": {
+    "unit": "°C",
+    "value": -1.5
+  },
+  "ACTUAL TEMPERATURE HK 1": {
+    "unit": "°C",
+    "value": 28.1
+  },
+  "SET TEMPERATURE HK 1": {
+    "unit": "°C",
+    "value": 30
+  },
+  "ACTUAL FLOW TEMPERATURE WP": {
+    "unit": "°C",
+    "value": 28.4
+  },
+  "ACTUAL FLOW TEMPERATURE NHZ": {
+    "unit": "°C",
+    "value": 28.6
+  },
+  "ACTUAL RETURN TEMPERATURE": {
+    "unit": "°C",
+    "value": 28.2
+  },
+  "HEATING PRESSURE": {
+    "unit": "bar",
+    "value": 2.37
+  },
+  "FLOW RATE": {
+    "unit": "l/min",
+    "value": 19.54
+  },
+  "SYSTEM FROST PROTECTION": {
+    "unit": "°C",
+    "value": 4
+  },
+  "ACTUAL TEMPERATURE": {
+    "unit": "°C",
+    "value": 36.7
+  },
+  "SET TEMPERATURE": {
+    "unit": "°C",
+    "value": 18
+  },
+  "SOURCE TEMPERATURE": {
+    "unit": "°C",
+    "value": 6.9
+  },
+  "SOURCE PRESSURE": {
+    "unit": "bar",
+    "value": 0.99
+  }
+}
+$
+```
+
 ### get-heating-mode
 
 Gets the mode that the heatpump is in.
