@@ -96,3 +96,36 @@ One of: `programmed`, `comfort`, `economy`, `domestic-hot-water`, `emergency` an
 $ stiebel set-heating-mode http://192.168.1.254/ username password programmed
 $
 ```
+
+### set-temperatures
+
+Sets the target room and hot water temperatures for comfort (applies also to programmed) and economy modes.
+In this order:
+1. room (comfort mode)
+1. hot water (comfort mode)
+1. room (economy mode)
+1. hot water (economy mode)
+
+```shell
+$ stiebel set-temperatures http://192.168.1.254/ username password 20.9 29.9 18 40
+$
+```
+
+### get-temperatures
+
+Gets the target room and hot water temperatures for comfort (applies also to programmed) and economy modes.
+
+```shell
+$ stiebel get-temperatures http://192.168.1.254/ username password
+{
+  "room": {
+    "comfort": 20.9,
+    "economy": 18
+  },
+  "hotWater": {
+    "comfort": 29.9,
+    "economy": 40
+  }
+}
+$
+```
