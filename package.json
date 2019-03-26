@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/jakutis/stiebel#readme",
   "dependencies": {
-    "puppeteer": "1.10.0"
+    "puppeteer": "1.13.0"
   }
 }
