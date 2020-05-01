@@ -1,6 +1,6 @@
 # stiebel
 
-> Control your Stiebel Eltron heatpump via ServiceWelt
+> Control your Stiebel Eltron heatpump via ServiceWelt using a command line interface
 
 ```shell
 $ npm install -g stiebel

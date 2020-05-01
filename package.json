@@ -1,7 +1,7 @@
 {
   "name": "stiebel",
   "version": "1.3.4",
-  "description": "Control your Stiebel Eltron heatpump via ServiceWelt",
+  "description": "Control your Stiebel Eltron heatpump via ServiceWelt using a command line interface",
   "main": "./lib",
   "bin": "./cli.js",
   "scripts": {},
